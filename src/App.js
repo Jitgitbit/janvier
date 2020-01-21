@@ -4,6 +4,8 @@ import ComponentTitle from "./components/ComponentTitle";
 import ItemTeam from "./components/ItemTeam";
 import ComponentTitleTitle from "./components/ComponentTitleTitle";
 import Title from "./components/Title"
+import LikeCounter from "./components/LikeCounter"
+
 
 export default class App extends React.Component {
   render() {
@@ -28,6 +30,7 @@ export default class App extends React.Component {
                 <div className="title-badge-title">Do you want to</div>
               </div>
               <Title text="Hello Codaisseur" color="blue" />
+              <LikeCounter />
               <h2>
                 <ComponentTitle content = "Learn how to code" />
               </h2>
